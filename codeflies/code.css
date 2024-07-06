@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+    :root {
+        --main-white: #f0f0f0;
+        --main-red: #be3144;
+        --main-blue: #45567d;
+        --main-gray: #303841;
+        --primary-color: #3498db;
+        --secondary-color: #2ecc71;
+        --accent-color: #e74c3c;
+        --background-color: #ecf0f1;
+        --text-color: #872890;
+        --font-family: "DM Serif Display", serif;
+      }
+
+
+
+.nav-item:hover{
+    background-color:#FFF189;
+    border-radius: 10px;
+}
+.nav-item{
+    margin-left: 50px;
+}
+.log{
+    height: 60px;
+    width: 97px;
+}
+.card-img-top{
+    height: 254px;
+    width: 262px;
+}
+.math{
+    margin-left: 12px;
+}
+.amazon{
+    height: 50px;
+}
+.card-body{
+    background-color: #D9D9D9;
+    border: solid 1px;
+    border-radius: 0px 0px 10px 10px;
+    
+    
+}
+.card-body1{
+    background-color: #87D1E6;
+    border:0px;
+    border-radius: 22px 22px 0px 0px;
+    
+}
+.card-title{
+    color: var(--text-color);
+}
+
+.btn{
+    margin-left: 157px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    
+}
+.card-img-top2{
+    height: 234px;
+}
+.card-text1{
+    text-shadow: -15px 1px 4px;
+};
+.math{
+    
+    box-shadow: -14px 2px 18px #7C59A5;
+}
+.btn-primary1{
+background-color: #7C59A5;
+color: white;
+
+}
+h4{
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+.btn-primary2{
+    background-color: #7C59A5;
+    color: white;
+    box-shadow: -6px 2px 13px #7C59A5;
+    }
+
+    .card1{
+        background: #1e130c;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to bottom, #87D1E6, #F8DF8D);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to bottom, #87D1E6, #F8DF8D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+    }
+    .card-img-to1{
+    width: 104px;
+    height: 111px;
+    margin-top: 54px;
+    margin-left: 91px;
+    }
+
+    .card-img-to2{
+        width: 104px;
+        height: 111px;
+        margin-top: 54px;
+        margin-left: 91px;
+        }
+.card-img-to{
+        height: 547px;
+}
+
+
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+   .navbar{
+    width: 100%;
+   }
+.card{
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 30px;
+}
+.tager{
+    width: 20%;
+    height: 20%;
+}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+    .navbar{
+        width: 100%;
+       }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .navbar{
+        width: 100%;
+       }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+   
+    .navbar{
+        width: 100%;
+       }      
+    
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .navbar{
+        width: 100%;
+       }
+}
